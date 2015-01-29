@@ -77,6 +77,7 @@ namespace Kvitto
             rounding = subtotal - total;
 
 
+
             //presentation
             Console.WriteLine("\nKVITTO");
             Console.WriteLine("----------------------------------------------");
