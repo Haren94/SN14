@@ -34,7 +34,7 @@ namespace Kvitto
             }
 
 
-            if (total < 1)
+            if (Math.Round(total, MidpointRounding.AwayFromZero) < 1)
             {
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.White;
